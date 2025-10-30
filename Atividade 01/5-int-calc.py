@@ -68,7 +68,7 @@ def main():
 		try:
 			ints.append(int(t))
 		except ValueError:
-			print(f"Erro: valor inválido para inteiro: '{t}'")
+			print(f"Erro: valor inválido para numero inteiro: '{t}'")
 			return
 
 	a, b, c, d = ints
